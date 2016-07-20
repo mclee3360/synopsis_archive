@@ -1,2 +1,57 @@
 body {
 }
+#content {
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    left: 50%;
+    margin-left: -50%;
+}
+#header {
+    text-align: center;
+}
+#banner_div {
+    margin-top: 30px;
+    text-align: center;
+}
+#desc_box {
+    width: 600px;
+    margin: auto;
+    margin-top: 40px;
+    text-align: justify;
+}
+#legend {
+    margin: auto;
+}
+.legend_content {
+}
+.symbol {
+    text-align: center;
+}
+
+#navi_div {
+    margin: auto;
+    width: 454px;
+}
+#pages {
+    list-style-type: none;
+    padding: 0px;
+    margin: auto;
+    margin-top: 40px;
+    display: inline-block;
+    height: 100px;
+}
+li {
+    display: inline;
+}
+.navi {
+    display: inline-block;
+    text-align: center;
+}
+#written {
+    margin-right: 50px;
+    border-radius: 10px;
+}
+#edited {
+    border-radius: 10px;
+}
