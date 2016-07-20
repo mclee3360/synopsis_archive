@@ -62,6 +62,7 @@ th {
 }
 #legend {
     margin: auto;
+    margin-top: -20px;
 }
 .symbol {
     text-align: center;
