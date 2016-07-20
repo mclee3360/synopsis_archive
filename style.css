@@ -1,11 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Play);
 
 body {
-    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8TGhSMUktUWhRUlU/);
+    /*background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8TGhSMUktUWhRUlU/);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
+    background-color: rgb(240, 240, 240);
 }
 h1 {
     font-family: "Play";
@@ -24,21 +25,16 @@ a:hover {
 #content {
     position: absolute;
     width: 100%;
-    top: 50px;
+    top: -10px;
     left: 50%;
     margin-left: -50%;
 }
 .box {
-    width: 750px;
+    width: 1100px;
     margin: auto;
-    margin-bottom: 30px;
     padding-top: 30px;
     padding-bottom: 20px;
-    border-radius: 20px;
-    background-color: rgba(175, 255, 255, .5);
-}
-#written_box {
-    width: 1100px;
+    background-color: white;
 }
 #header {
     font-size: 25px;
@@ -52,7 +48,7 @@ a:hover {
     border-radius: 5px;
 }
 #desc_box {
-    width: 480px;
+    width: 850px;
     margin: auto;
     margin-top: 40px;
     margin-bottom: 40px;
