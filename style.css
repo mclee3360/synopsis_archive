@@ -1,4 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Play);
+
 body {
+    background-image: url(Wallpaper.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+    font-family: "Play";
+}
+a:link {
+    color: blue;
+    font-style: italic;
+}
+a:visited {
+    color: blue;
+    font-style: italic;
 }
 #content {
     position: absolute;
@@ -7,6 +25,15 @@ body {
     left: 50%;
     margin-left: -50%;
 }
+#box {
+    width: 750px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    background-color: rgba(175, 255, 255, .5);
+}
 #header {
     text-align: center;
 }
@@ -14,24 +41,33 @@ body {
     margin-top: 30px;
     text-align: center;
 }
+#banner {
+    border-radius: 5px;
+}
 #desc_box {
-    width: 600px;
+    width: 480px;
     margin: auto;
     margin-top: 40px;
+    margin-bottom: 40px;
     text-align: justify;
+}
+.text {
+    font-size: 20px;
+    font-family: "Play";
+}
+th {
+    font-size: 24px;
 }
 #legend {
     margin: auto;
 }
-.legend_content {
-}
 .symbol {
     text-align: center;
 }
-
 #navi_div {
     margin: auto;
-    width: 454px;
+    width: 466px;
+    margin-bottom: 20px;
 }
 #pages {
     list-style-type: none;
@@ -50,8 +86,12 @@ li {
 }
 #written {
     margin-right: 50px;
+    width: 200px;
+    height: 100px;
     border-radius: 10px;
 }
 #edited {
+    width: 200px;
+    height: 100px;
     border-radius: 10px;
 }
