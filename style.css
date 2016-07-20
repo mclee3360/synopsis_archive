@@ -1,11 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Play);
 
 body {
-    /*background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8TGhSMUktUWhRUlU/);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;*/
     background-color: rgb(240, 240, 240);
 }
 h1 {
@@ -35,6 +30,7 @@ a:hover {
     padding-top: 30px;
     padding-bottom: 20px;
     background-color: white;
+    height: 100%;
 }
 #header {
     font-size: 25px;
@@ -43,6 +39,9 @@ a:hover {
 #banner_div {
     margin-top: 30px;
     text-align: center;
+}
+.page_banner {
+    border-radius: 10px;
 }
 #banner {
     border-radius: 5px;
