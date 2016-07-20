@@ -18,6 +18,9 @@ a:visited {
     color: blue;
     font-style: italic;
 }
+a:hover {
+    color: rgb(34, 0, 174);
+}
 #content {
     position: absolute;
     width: 100%;
@@ -25,7 +28,7 @@ a:visited {
     left: 50%;
     margin-left: -50%;
 }
-#box {
+.box {
     width: 750px;
     margin: auto;
     margin-bottom: 30px;
@@ -34,7 +37,11 @@ a:visited {
     border-radius: 20px;
     background-color: rgba(175, 255, 255, .5);
 }
+#written_box {
+    width: 1100px;
+}
 #header {
+    font-size: 25px;
     text-align: center;
 }
 #banner_div {
@@ -63,35 +70,100 @@ th {
 }
 .symbol {
     text-align: center;
+    font-weight: bold;
 }
 #navi_div {
     margin: auto;
     width: 466px;
     margin-bottom: 20px;
 }
-#pages {
+ul {
     list-style-type: none;
     padding: 0px;
+}
+#pages {
     margin: auto;
     margin-top: 40px;
     display: inline-block;
     height: 100px;
 }
-li {
+.navi_buttons {
     display: inline;
 }
 .navi {
     display: inline-block;
     text-align: center;
 }
+#navi_bar {
+    position: fixed;
+    left: 0%;
+    top: 10%;
+}
+.navi_options {
+    width: 200px;
+    height: 100px;
+    margin-bottom: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(130, 213, 245);
+}
+.navi_options:hover {
+    background-color: rgb(96, 181, 214);
+}
+.navi_links {
+}
 #written {
     margin-right: 50px;
     width: 200px;
     height: 100px;
     border-radius: 10px;
+    background-color: rgb(130, 213, 245);
+}
+#written:hover {
+    background-color: rgb(96, 181, 214);
 }
 #edited {
     width: 200px;
     height: 100px;
     border-radius: 10px;
+    background-color: rgb(130, 213, 245);
+}
+#edited:hover {
+    background-color: rgb(96, 181, 214);
+}
+#subtitle {
+    margin: auto;
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+#synopsis_list {
+    margin: auto;
+    width: 1000px;
+}
+#synopsis_table {
+    margin: auto;
+    width: 1000px;
+    table-layout: fixed;
+}
+.cover {
+    height: 200px;
+    width: 100px;
+    padding-bottom: 30px;
+}
+.poster {
+    height: 250px;
+    width: 166px;
+    display: block;
+    margin: auto;
+}
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Play";
+    text-align: center;
+    height: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
 }
