@@ -68,6 +68,11 @@ th {
     text-align: center;
     font-weight: bold;
 }
+#mouse {
+    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8MHlRNXlwYkE0SFE/);
+    background-repeat: no-repeat;
+    background-position: center;
+}
 #navi_div {
     margin: auto;
     width: 466px;
@@ -127,11 +132,8 @@ ul {
 #edited:hover {
     background-color: rgb(96, 181, 214);
 }
-#subtitle {
-    margin: auto;
-    text-align: center;
-    margin-top: -20px;
-    margin-bottom: 30px;
+#white_space {
+    height: 30px;
 }
 #synopsis_list {
     margin: auto;
