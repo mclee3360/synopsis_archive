@@ -6,6 +6,9 @@ body {
 h1 {
     font-family: "Play";
 }
+a {
+    text-decoration: none;
+}
 a:link {
     color: blue;
     font-style: italic;
@@ -36,9 +39,12 @@ a:hover {
     font-size: 25px;
     text-align: center;
 }
-#banner_div {
-    margin-top: 30px;
+.banner_div {
+    margin-top: 00px;
     text-align: center;
+}
+#club_banner {
+    margin-top: 30px;
 }
 .page_banner {
     border-radius: 10px;
@@ -172,6 +178,16 @@ ul {
 }
 .edit_list {
     margin-bottom: 8px;
+    font-weight: bold;
+}
+li > a:link {
+    color: rgb(114, 114, 114);
+}
+li > a:visited {
+    color: rgb(114, 114, 114);
+}
+li > a:hover {
+    color: black;
 }
 #update {
     width: 300px;
