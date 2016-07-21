@@ -56,6 +56,10 @@ a:hover {
 #club_banner {
     margin-bottom: -20px;
 }
+#source_banner {
+    border: 2px solid;
+    border-color: rgb(170, 170, 170);
+}
 #desc_box {
     width: 850px;
     margin: auto;
@@ -209,4 +213,97 @@ th {
 .showcase_list {
     margin: auto;
     width: 1000px;
+}
+.image_table_wrapper {
+    margin: auto;
+    margin-top: 50px;
+}
+.image_table {
+    margin: auto;
+    width: 800px;
+}
+.image_row {
+    height: 200px;
+}
+.banner_source {
+    padding-right: 798px;
+    border-radius: 10px;
+    padding-bottom: 91px;
+    padding-top: 90px;
+    background-color: rgba(0, 0, 0, .15);
+}
+.banner_source:hover {
+    background-color: rgba(0, 0, 0, .04);;
+}
+.banner_image {
+    width: 800px;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#main_banner_source {
+    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8c3N2YVdzZVBmTXc/);
+
+}
+#showcase_banner_source {
+    background-position: right;
+    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8M1lmU2ZKWlZTVzQ/);
+}
+#written_banner_source {
+    background-position: right top;
+    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8RW5HMHQ0N1gxdE0/);
+}
+#edit_banner_source {
+    background-position: left;
+    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8VXJoVTZZVXFoNjA/);
+}
+#sources_banner_source {
+    background-position: 70% 20%;
+    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8YUc5RWgxTUIzRVk/);
+}
+.table_whitespace {
+    text-align: center;
+    height: 30px;
+    font-family: "Play";
+    font-weight: bold;
+    font-size: 20px;
+}
+.sidebar_image {
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.sidebar_whitespace {
+    width: 30px;
+}
+.sidebar_source {
+    background-color: rgba(0, 0, 0, .15);
+    padding-right: 240px;
+    padding-bottom: 145px;
+    padding-top: 142px;
+    border-radius: 10px;
+}
+.sidebar_source:hover {
+    background-color: rgba(0, 0, 0, .04);
+}
+#home_sidebar_source {
+    background-size: 150%;
+    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8dTdzckc3Vl92RFU/);
+}
+#SW_sidebar_source {
+    background-position: top;
+    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8bURPM1BZRjJZTzA/);
+}
+#SE_sidebar_source {
+    background-size: 150%;
+    background-position: top;
+    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8dnZtRTBPVjR5Tmc/);
+}
+#notes {
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: -30px;
+    text-align: center;
 }
