@@ -50,8 +50,11 @@ a:hover {
 .page_banner {
     border-radius: 10px;
 }
-#banner {
+.banner {
     border-radius: 5px;
+}
+#club_banner {
+    margin-bottom: -20px;
 }
 #desc_box {
     width: 850px;
