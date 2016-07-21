@@ -18,7 +18,7 @@ a:visited {
     font-style: italic;
 }
 a:hover {
-    color: rgb(34, 0, 174);
+    color: rgb(142, 0, 114);
 }
 #content {
     position: absolute;
@@ -202,7 +202,7 @@ li > a:hover {
     width: 300px;
     text-align: center;
     margin: auto;
-    margin-top: 70px;
+    margin-top: 20px;
     margin-bottom: -20px;
 }
 th {
@@ -305,5 +305,12 @@ th {
     margin: auto;
     margin-top: 50px;
     margin-bottom: -30px;
+    text-align: center;
+}
+.source_link {
+    margin: auto;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    width: 400px;
     text-align: center;
 }
