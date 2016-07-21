@@ -165,3 +165,18 @@ ul {
     margin-bottom: 0px;
     padding-top: 0px;
 }
+#edit_list_div {
+    margin: auto;
+    width: 800px;
+    text-align: center;
+}
+.edit_list {
+    margin-bottom: 8px;
+}
+#update {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: -20px;
+}
