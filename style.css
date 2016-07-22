@@ -18,6 +18,15 @@ a:visited {
 a:hover {
     color: rgb(142, 0, 114);
 }
+th {
+    font-family: "Play";
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
 #content {
     position: absolute;
     width: 100%;
@@ -33,17 +42,9 @@ a:hover {
     background-color: white;
     height: 100%;
 }
-#header {
-    font-size: 25px;
-    text-align: center;
-}
 .banner_div {
     margin-top: 00px;
     text-align: center;
-}
-#small_banner {
-    margin-top: 40px;
-    margin-bottom: 20px;
 }
 .page_banner {
     border-radius: 10px;
@@ -51,61 +52,16 @@ a:hover {
 .banner {
     border-radius: 5px;
 }
-#club_banner {
-    margin-bottom: -20px;
+#small_banner {
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 #source_banner {
     border: 2px solid;
     border-color: rgb(170, 170, 170);
 }
-#desc_box {
-    width: 850px;
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    text-align: justify;
-}
-.text {
-    font-size: 20px;
-    font-family: "Play";
-}
-th {
-    font-size: 24px;
-}
-#legend {
-    margin: auto;
-    margin-top: -20px;
-}
-.symbol {
-    text-align: center;
-    font-weight: bold;
-}
-#mouse {
-    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8MHlRNXlwYkE0SFE/);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-#navi_div {
-    margin: auto;
-    width: 466px;
-    margin-bottom: 20px;
-}
-ul {
-    list-style-type: none;
-    padding: 0px;
-}
-#pages {
-    margin: auto;
-    margin-top: 40px;
-    display: inline-block;
-    height: 100px;
-}
-.navi_buttons {
-    display: inline;
-}
-.navi {
-    display: inline-block;
-    text-align: center;
+#white_space {
+    height: 30px;
 }
 #navi_bar {
     position: fixed;
@@ -123,31 +79,35 @@ ul {
 .navi_options:hover {
     background-color: rgb(96, 181, 214);
 }
-.navi_links {
+#desc_box {
+    width: 850px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: justify;
 }
-#written {
-    margin-right: 50px;
-    width: 200px;
-    height: 100px;
-    border-radius: 10px;
-    background-color: rgb(130, 213, 245);
+.text {
+    font-size: 20px;
+    font-family: "Play";
 }
-#written:hover {
-    background-color: rgb(96, 181, 214);
+#legend {
+    margin: auto;
+    margin-top: -20px;
 }
-#edited {
-    width: 200px;
-    height: 100px;
-    border-radius: 10px;
-    background-color: rgb(130, 213, 245);
+.symbol {
+    text-align: center;
+    font-weight: bold;
 }
-#edited:hover {
-    background-color: rgb(96, 181, 214);
-}
-#white_space {
-    height: 30px;
+#mouse {
+    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8MHlRNXlwYkE0SFE/);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #synopsis_list {
+    margin: auto;
+    width: 1000px;
+}
+.showcase_list {
     margin: auto;
     width: 1000px;
 }
@@ -174,7 +134,7 @@ ul {
     margin: auto;
     border-radius: 3px;
 }
-.title {
+.poster_notes {
     font-size: 25px;
     font-weight: bold;
     font-family: "Play";
@@ -202,22 +162,6 @@ li > a:visited {
 li > a:hover {
     color: black;
 }
-#update {
-    width: 300px;
-    text-align: center;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: -20px;
-}
-th {
-    font-family: "Play";
-    font-size: 30px;
-    padding-bottom: 20px;
-}
-.showcase_list {
-    margin: auto;
-    width: 1000px;
-}
 .image_table_wrapper {
     margin: auto;
     margin-top: 50px;
@@ -229,6 +173,12 @@ th {
 .image_row {
     height: 200px;
 }
+.banner_image {
+    width: 800px;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .banner_source {
     padding-right: 798px;
     border-radius: 10px;
@@ -239,15 +189,8 @@ th {
 .banner_source:hover {
     background-color: rgba(0, 0, 0, .04);;
 }
-.banner_image {
-    width: 800px;
-    border-radius: 10px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 #main_banner_source {
     background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8c3N2YVdzZVBmTXc/);
-
 }
 #showcase_banner_source {
     background-position: right;
@@ -278,19 +221,6 @@ th {
     background-repeat: no-repeat;
     border-radius: 10px;
 }
-.sidebar_whitespace {
-    width: 30px;
-}
-.sidebar_source {
-    background-color: rgba(0, 0, 0, .15);
-    padding-right: 240px;
-    padding-bottom: 145px;
-    padding-top: 142px;
-    border-radius: 10px;
-}
-.sidebar_source:hover {
-    background-color: rgba(0, 0, 0, .04);
-}
 #home_sidebar_source {
     background-size: 150%;
     background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8dTdzckc3Vl92RFU/);
@@ -304,6 +234,19 @@ th {
     background-position: top;
     background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8dnZtRTBPVjR5Tmc/);
 }
+.sidebar_source {
+    background-color: rgba(0, 0, 0, .15);
+    padding-right: 240px;
+    padding-bottom: 145px;
+    padding-top: 142px;
+    border-radius: 10px;
+}
+.sidebar_source:hover {
+    background-color: rgba(0, 0, 0, .04);
+}
+.sidebar_whitespace {
+    width: 30px;
+}
 #notes {
     width: 500px;
     margin: auto;
@@ -311,10 +254,20 @@ th {
     margin-bottom: -30px;
     text-align: center;
 }
+#club_banner {
+    margin-bottom: -20px;
+}
 .source_link {
     margin: auto;
     margin-bottom: 10px;
     padding-top: 10px;
     width: 400px;
     text-align: center;
+}
+#update {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: -20px;
 }
