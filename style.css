@@ -1,8 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Play);
-@import url(poster.css);
 
 body {
     background-color: rgb(240, 240, 240);
+}
+body:after {
+    display: none;
+    content: url(https://googledrive.com/host/0B_EGAgtvNjo8ZnlGd0dqQWRUSm8/)
+             url(https://googledrive.com/host/0B_EGAgtvNjo8bERGcnNkZXRzcTQ/)
+             url(https://googledrive.com/host/0B_EGAgtvNjo8Y1YzVUd1U2NZeWM/);
 }
 a {
     text-decoration: none;
@@ -43,10 +48,10 @@ ul {
     height: 100%;
 }
 .banner_div {
-    margin-top: 00px;
     text-align: center;
 }
 .page_banner {
+    margin-top: 20px;
     border-radius: 10px;
 }
 .banner {
@@ -63,21 +68,69 @@ ul {
 #white_space {
     height: 30px;
 }
-#navi_bar {
+#navi_bar_wrapper {
     position: fixed;
-    left: 0%;
-    top: 10%;
+    top: 0%;
+    width: 1100px;
+    height: 30px;
+    background-color: rgba(150, 150, 150, .8);
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#navi_bar {
+    margin: auto;
 }
 .navi_options {
-    width: 200px;
-    height: 100px;
-    margin-bottom: 30px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    background-color: rgb(130, 213, 245);
+    width: 150px;
+    height: 30px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    float: left;
 }
-.navi_options:hover {
-    background-color: rgb(96, 181, 214);
+.navi_link {
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#home_link {
+    position: absolute;
+    display: block;
+    left: 50%;
+    margin-left: -300px;
+}
+#home_button {
+    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8ZTdLbmYtWWtKVEE/);
+}
+#home_button:hover {
+    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8ZnlGd0dqQWRUSm8/);
+}
+#write_link {
+    position: absolute;
+    display: block;
+    left: 50%;
+    margin-left: -75px;
+}
+#write_button {
+    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8WkF3eEVLTTFjTzQ/);
+}
+#write_button:hover {
+    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8bERGcnNkZXRzcTQ/);
+}
+#edit_link {
+    position: absolute;
+    display: block;
+    left: 50%;
+    margin-left: 150px;
+}
+#edit_button {
+    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8QlVQSXFjVncyVlU/);
+}
+#edit_button:hover {
+    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8Y1YzVUd1U2NZeWM/);
 }
 #desc_box {
     width: 850px;
