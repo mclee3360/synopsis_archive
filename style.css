@@ -33,6 +33,11 @@ ul {
     list-style-type: none;
     padding: 0px;
 }
+sup {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
 #content {
     position: absolute;
     width: 100%;
@@ -203,7 +208,7 @@ ul {
     text-align: center;
 }
 .edit_list {
-    margin-bottom: 8px;
+    margin-bottom: 12px;
     font-weight: bold;
 }
 li > a:link {
