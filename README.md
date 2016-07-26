@@ -4,4 +4,4 @@ A fairly basic website created for the purposes of keeping track of and showcasi
 the synopses that I've written and edited for [MyAnimeList](http://myanimelist.net/)
 as part of MAL Rewrite. The website is being hosted on Google Drive.
 
-A link to the site is [here](https://googledrive.com/host/0B_EGAgtvNjo8eGlkMHRzT2JKUTg/).
+A link to the site: [https://goo.gl/ts9oRA](https://googledrive.com/host/0B_EGAgtvNjo8eGlkMHRzT2JKUTg/).
