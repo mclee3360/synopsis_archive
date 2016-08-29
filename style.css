@@ -6,9 +6,9 @@ body {
 }
 body:after {
     display: none;
-    content: url(https://googledrive.com/host/0B_EGAgtvNjo8ZnlGd0dqQWRUSm8/)
-             url(https://googledrive.com/host/0B_EGAgtvNjo8bERGcnNkZXRzcTQ/)
-             url(https://googledrive.com/host/0B_EGAgtvNjo8Y1YzVUd1U2NZeWM/);
+    content: url(images/nav_bar/home_link_hover.png)
+             url(images/nav_bar/written_link_hover.png)
+             url(images/nav_bar/edit_link_hover.png);
 }
 a {
     text-decoration: none;
@@ -109,10 +109,10 @@ sup {
     margin-left: -300px;
 }
 #home_button {
-    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8ZTdLbmYtWWtKVEE/);
+    background-image: url(images/nav_bar/home_link.png);
 }
 #home_button:hover {
-    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8ZnlGd0dqQWRUSm8/);
+    background-image: url(images/nav_bar/home_link_hover.png);
 }
 #write_link {
     position: absolute;
@@ -121,10 +121,10 @@ sup {
     margin-left: -75px;
 }
 #write_button {
-    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8WkF3eEVLTTFjTzQ/);
+    background-image: url(images/nav_bar/written_link.png);
 }
 #write_button:hover {
-    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8bERGcnNkZXRzcTQ/);
+    background-image: url(images/nav_bar/written_link_hover.png);
 }
 #edit_link {
     position: absolute;
@@ -133,10 +133,10 @@ sup {
     margin-left: 150px;
 }
 #edit_button {
-    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8QlVQSXFjVncyVlU/);
+    background-image: url(images/nav_bar/edit_link.png);
 }
 #edit_button:hover {
-    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8Y1YzVUd1U2NZeWM/);
+    background-image: url(images/nav_bar/edit_link_hover.png);
 }
 #desc_box {
     width: 850px;
@@ -248,23 +248,23 @@ li > a:hover {
     background-color: rgba(0, 0, 0, .04);;
 }
 #main_banner_source {
-    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8c3N2YVdzZVBmTXc/);
+    background-image: url(images/banner/main_banner_source.jpg);
 }
 #showcase_banner_source {
     background-position: right;
-    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8M1lmU2ZKWlZTVzQ/);
+    background-image: url(images/banner/showcase_banner_source.jpg);
 }
 #written_banner_source {
     background-position: right top;
-    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8RW5HMHQ0N1gxdE0/);
+    background-image: url(images/banner/written_banner_source.jpg);
 }
 #edit_banner_source {
     background-position: left;
-    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8VXJoVTZZVXFoNjA/);
+    background-image: url(images/banner/edit_banner_source.jpg);
 }
 #sources_banner_source {
     background-position: 70% 20%;
-    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8YUc5RWgxTUIzRVk/);
+    background-image: url(images/banner/sources_banner_source.jpg);
 }
 .table_whitespace {
     text-align: center;
@@ -272,38 +272,6 @@ li > a:hover {
     font-family: "Play";
     font-weight: bold;
     font-size: 20px;
-}
-.sidebar_image {
-    height: 300px;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-}
-#home_sidebar_source {
-    background-size: 150%;
-    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8dTdzckc3Vl92RFU/);
-}
-#SW_sidebar_source {
-    background-position: top;
-    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8bURPM1BZRjJZTzA/);
-}
-#SE_sidebar_source {
-    background-size: 150%;
-    background-position: top;
-    background-image: url(https://googledrive.com/host/0B_EGAgtvNjo8dnZtRTBPVjR5Tmc/);
-}
-.sidebar_source {
-    background-color: rgba(0, 0, 0, .15);
-    padding-right: 240px;
-    padding-bottom: 145px;
-    padding-top: 142px;
-    border-radius: 10px;
-}
-.sidebar_source:hover {
-    background-color: rgba(0, 0, 0, .04);
-}
-.sidebar_whitespace {
-    width: 30px;
 }
 #notes {
     width: 500px;
