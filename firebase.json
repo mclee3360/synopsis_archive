@@ -1,0 +1,93 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    "public": "public"
+  },
+  "blankEntry": {
+      "source": "",
+      "poster": "",
+      "title": "",
+      "uploaded": "true",
+      "finalEdit": "true"
+  },
+  "written": {
+      "anime": {
+      },
+      "manga": {
+      },
+      "novel": {
+      }
+  },
+  "edited": {
+      "anime": {
+      },
+      "manga": {
+      },
+      "novel": {
+      }
+  },
+  "showcase": {
+      "written": {
+          "haruhi": {
+              "source": "http://myanimelist.net/manga/3083/Suzumiya_Haruhi_Series?q=haruhi",
+              "poster": "http://cdn.myanimelist.net/images/manga/1/52529l.jpg",
+              "title": "Suzumiya Haruhi Series",
+              "uploaded": "true",
+              "finalEdit": "true"
+          },
+          "ass class": {
+              "source": "http://myanimelist.net/manga/39883/Ansatsu_Kyoushitsu?q=ansatsu",
+              "poster": "http://cdn.myanimelist.net/images/manga/2/90819l.jpg",
+              "title": "Ansatsu Kyoushitsu",
+              "uploaded": "true",
+              "finalEdit": "true"
+          },
+          "heavy object": {
+              "source": "http://myanimelist.net/anime/27829/Heavy_Object?q=heavy%20",
+              "poster": "http://cdn.myanimelist.net/images/anime/13/75940l.jpg",
+              "title": "Heavy Object",
+              "uploaded": "true",
+              "finalEdit": "true"
+          },
+          "love live": {
+              "source": "http://myanimelist.net/anime/15051/Love_Live_School_Idol_Project?q=love%20live",
+              "poster": "http://cdn.myanimelist.net/images/anime/11/56849l.jpg",
+              "title": "Love Live! School Idol Project",
+              "uploaded": "true",
+              "finalEdit": "false"
+          }
+      },
+      "edited": {
+          "bloody monday": {
+              "source": "http://myanimelist.net/manga/5627/Bloody_Monday?q=bloody%20",
+              "poster": "http://cdn.myanimelist.net/images/manga/2/57141l.jpg",
+              "title": "Bloody Monday",
+              "uploaded": "true",
+              "finalEdit": "false"
+          },
+          "michiko": {
+              "source": "http://myanimelist.net/anime/4087/Michiko_to_Hatchin?q=michi",
+              "poster": "http://cdn.myanimelist.net/images/anime/10/59535l.jpg",
+              "title": "Michiko to Hatchin",
+              "uploaded": "true",
+              "finalEdit": "false"
+          },
+          "champloo": {
+              "source": "http://myanimelist.net/anime/205/Samurai_Champloo?q=cham",
+              "poster": "http://cdn.myanimelist.net/images/anime/11/29134l.jpg",
+              "title": "Samurai Champloo",
+              "uploaded": "true",
+              "finalEdit": "false"
+          },
+          "rakugo": {
+              "source": "http://myanimelist.net/anime/28735/Shouwa_Genroku_Rakugo_Shinjuu?q=rak",
+              "poster": "http://cdn.myanimelist.net/images/anime/2/77907l.jpg",
+              "title": "Shouwa Genroku Rakugo Shinjuu",
+              "uploaded": "true",
+              "finalEdit": "false"
+          }
+      }
+  }
+}
