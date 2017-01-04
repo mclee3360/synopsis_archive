@@ -166,7 +166,7 @@ sup {
     margin: auto;
     width: 1000px;
 }
-#synopsis_table {
+.synopsis_table {
     margin: auto;
     width: 1000px;
     table-layout: fixed;

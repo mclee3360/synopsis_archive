@@ -88,139 +88,11 @@
                 </a>
             </div>
             <div class="showcase_list">
-                <table id="synopsis_table">
-                    <th colspan="4">- Best of Written -</th>
-                    <tr>
-                        <td class="cover">
-                            <div>
-                                <a href="http://myanimelist.net/manga/3083/Suzumiya_Haruhi_Series?q=haruhi"
-                                target="_blank" class="poster_link">
-                                    <img src="https://myanimelist.cdn-dena.com/images/manga/1/186142.webp"
-                                    alt="Suzumiya Haruhi Series Poster"
-                                    class="poster"
-                                    title="Suzumiya Haruhi Series"/>
-                                </a>
-                                <div class="title" id="showcase">
-                                <p class="title_text"
-                                    >Suzumiya Haruhi Series<br>FINAL</p>
-                                </div>
-                            </div>
-                        </td>
-                        <td class="cover">
-                            <div>
-                                <a href="http://myanimelist.net/manga/39883/Ansatsu_Kyoushitsu?q=ansatsu"
-                                target="_blank" class="poster_link">
-                                    <img src="http://cdn.myanimelist.net/images/manga/2/90819l.jpg"
-                                    alt="Ansatsu Kyoushitsu Poster"
-                                    class="poster"
-                                    title="Ansatsu Kyoushitsu"
-                                    onClick="test()"/>
-                                </a>
-                                <div class="title" id="showcase">
-                                <p class="title_text"
-                                    >Ansatsu Kyoushitsu<br>FINAL</p>
-                                </div>
-                            </div>
-                        </td>
-                        <td class="cover">
-                            <div>
-                                <a href="http://myanimelist.net/anime/27829/Heavy_Object?q=heavy%20"
-                                target="_blank" class="poster_link">
-
-                                    <img src="http://cdn.myanimelist.net/images/anime/13/75940l.jpg"
-                                    alt="Heavy Object Poster"
-                                    class="poster"
-                                    title="Heavy Object"/>
-                                </a>
-                                <div class="title" id="showcase">
-                                <p class="title_text"
-                                    >Heavy Object<br>FINAL</p>
-                                </div>
-                            </div>
-                        </td>
-                        <td class="cover">
-                            <div>
-                                <a href="http://myanimelist.net/anime/15051/Love_Live_School_Idol_Project?q=love%20live"
-                                target="_blank" class="poster_link">
-                                    <img src="http://cdn.myanimelist.net/images/anime/11/56849l.jpg"
-                                    alt="Love Live Poster"
-                                    class="poster"
-                                    title="Love Live! School Idol Project"/>
-                                </a>
-                                <div class="title" id="showcase">
-                                <p class="title_text"
-                                    >Love Live! School Idol Project</p>
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
+                <table class="synopsis_table" id="written_showcase">
                 </table>
             </div>
             <div class="showcase_list">
-                <table id="synopsis_table">
-                    <th colspan="4">- Best of Edited -</th>
-                    <tr>
-                        <td class="cover">
-                            <div>
-                                <a href="http://myanimelist.net/manga/5627/Bloody_Monday?q=bloody%20"
-                                target="_blank" class="poster_link">
-                                    <img src="http://cdn.myanimelist.net/images/manga/2/57141l.jpg"
-                                    alt="Bloody Monday Poster"
-                                    class="poster"
-                                    title="Bloody Monday"/>
-                                </a>
-                                <div class="title" id="showcase">
-                                <p class="title_text"
-                                    >Bloody Monday</p>
-                                </div>
-                            </div>
-                        </td>
-                        <td class="cover">
-                            <div>
-                                <a href="http://myanimelist.net/anime/4087/Michiko_to_Hatchin?q=michi"
-                                target="_blank" class="poster_link">
-                                    <img src="http://cdn.myanimelist.net/images/anime/10/59535l.jpg"
-                                    alt="Michiko to Hatchin Poster"
-                                    class="poster"
-                                    title="Michiko to Hatchin"/>
-                                </a>
-                                <div class="title" id="showcase">
-                                <p class="title_text"
-                                    >Michiko to Hatchin</p>
-                                </div>
-                            </div>
-                        </td>
-                        <td class="cover">
-                            <div>
-                                <a href="http://myanimelist.net/anime/205/Samurai_Champloo?q=cham"
-                                target="_blank" class="poster_link">
-                                    <img src="http://cdn.myanimelist.net/images/anime/11/29134l.jpg"
-                                    alt="Samurai Champloo Poster"
-                                    class="poster"
-                                    title="Samurai Champloo"/>
-                                </a>
-                                <div class="title" id="showcase">
-                                <p class="title_text"
-                                    >Samurai Champloo</p>
-                                </div>
-                            </div>
-                        </td>
-                        <td class="cover">
-                            <div>
-                                <a href="http://myanimelist.net/anime/28735/Shouwa_Genroku_Rakugo_Shinjuu?q=rak"
-                                target="_blank" class="poster_link">
-                                    <img src="http://cdn.myanimelist.net/images/anime/2/77907l.jpg"
-                                    alt="Shouwa Genroku Rakugo Shinjuu Poster"
-                                    class="poster"
-                                    title="Shouwa Genroku Rakugo Shinjuu"/>
-                                </a>
-                                <div class="title" id="showcase">
-                                <p class="title_text"
-                                    >Shouwa Genroku Rakugo Shinjuu</p>
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
+                <table class="synopsis_table" id="edited_showcase">
                 </table>
             </div>
             <div class="banner_div" id="small_banner">
@@ -237,7 +109,9 @@
     </div>
     <script src="https://www.gstatic.com/firebasejs/3.6.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/3.6.1/firebase-database.js"></script>
+    <script src="scripts/databse.js"></script>
     <script src="scripts/entry.js"></script>
-    <script src="scripts/main.js"></script>
+    <script src="scripts/html.js"></script>
+    <script src="scripts/index.js"></script>
     </body>
 </html>
