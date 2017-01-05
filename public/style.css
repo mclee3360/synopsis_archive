@@ -83,6 +83,7 @@ sup {
     text-align: center;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    z-index: 2;
 }
 #navi_bar {
     margin: auto;
@@ -185,6 +186,11 @@ sup {
     margin-top: 10px;
     text-align: center;
 }
+.marker {
+    font-family: "Play";
+    font-size: 16px;
+    color: #a8a8a8  ;
+}
 #showcase {
     height: 50px;
     width: 225px;
@@ -201,6 +207,10 @@ sup {
     display: block;
     margin: auto;
     border-radius: 3px;
+    /*opacity: .85;*/
+}
+.poster:hover {
+    opacity: .75;
 }
 #edit_list_div {
     margin: auto;
