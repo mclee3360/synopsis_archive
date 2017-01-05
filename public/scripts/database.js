@@ -1,8 +1,8 @@
 // Set the configuration for your app
 var config = {
     apiKey: "apiKey",
-    authDomain: "https://rewrite-archive.firebaseapp.com/",
-    databaseURL: "https://rewrite-archive.firebaseio.com/",
+    authDomain: "rewrite-archive-f7a8b.firebaseapp.com/",
+    databaseURL: "https://rewrite-archive-f7a8b.firebaseio.com/",
     storageBucket: "bucket.appspot.com"
 };
 firebase.initializeApp(config);
