@@ -76,7 +76,7 @@ var createEntryListHTML = function(entryList) {
         if (!entryList[i].getUploaded()) {
             html += "<span class=marker><sup>    [NU]</sup></span>";
         }
-        html += "</li";
+        html += "</li>";
     }
     return html;
 }
