@@ -37,13 +37,13 @@ var createEntryHTML = function(entry, showcase) {
     html += "><p class=title_text>";
     html += entry.getTitle();
     if (entry.getFinalEdit()) {
-        html += "<br><span class=marker><sup>[F] ";
+        html += "<br><span class=marker title='Final Edit'><sup>[F] ";
     }
     if (!entry.getUploaded()) {
         if (!entry.getFinalEdit()) {
             html += "<br><span class=marker><sup>";
         }
-        html += "[NU]";
+        html += "<span title='Not Uploaded'>[NU]</span>";
     }
     if (entry.getFinalEdit() || !entry.getUploaded()) {
         html += "</sup></span>";
@@ -74,7 +74,7 @@ var createEntryListHTML = function(entryList) {
         html += entryList[i].getTitle();
         html += "</a>";
         if (!entryList[i].getUploaded()) {
-            html += "<span class=marker><sup>    [NU]</sup></span>";
+            html += "<span class=marker title='Not Uploaded'><sup>[NU]</sup></span>";
         }
         html += "</li>";
     }
